@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo5/Calcolo_Ipotenusa -B/Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo5/Calcolo_Ipotenusa/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo_5/Calcolo_Ipotenusa -B/Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo_5/Calcolo_Ipotenusa/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

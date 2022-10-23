@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo5/Calcolo_Ipotenusa/cmake-build-debug/
+cmake_ninja_workdir = /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo_5/Calcolo_Ipotenusa/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Calcolo_Ipotenusa
 
@@ -46,7 +46,7 @@ cmake_ninja_workdir = /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo
 
 build cmake_object_order_depends_target_Calcolo_Ipotenusa: phony || CMakeFiles/Calcolo_Ipotenusa.dir
 
-build CMakeFiles/Calcolo_Ipotenusa.dir/main.c.o: C_COMPILER__Calcolo_Ipotenusa_Debug /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo5/Calcolo_Ipotenusa/main.c || cmake_object_order_depends_target_Calcolo_Ipotenusa
+build CMakeFiles/Calcolo_Ipotenusa.dir/main.c.o: C_COMPILER__Calcolo_Ipotenusa_Debug /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo_5/Calcolo_Ipotenusa/main.c || cmake_object_order_depends_target_Calcolo_Ipotenusa
   DEP_FILE = CMakeFiles/Calcolo_Ipotenusa.dir/main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/Calcolo_Ipotenusa.dir
@@ -76,7 +76,7 @@ build Calcolo_Ipotenusa: C_EXECUTABLE_LINKER__Calcolo_Ipotenusa_Debug CMakeFiles
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo5/Calcolo_Ipotenusa/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo_5/Calcolo_Ipotenusa/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -87,7 +87,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo5/Calcolo_Ipotenusa/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo5/Calcolo_Ipotenusa -B/Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo5/Calcolo_Ipotenusa/cmake-build-debug
+  COMMAND = cd /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo_5/Calcolo_Ipotenusa/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo_5/Calcolo_Ipotenusa -B/Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo_5/Calcolo_Ipotenusa/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +103,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo5/Calcolo_Ipotenusa/cmake-build-debug
+# Folder: /Users/checcoconf/Desktop/Programmazione/Esercizi_Capitolo_5/Calcolo_Ipotenusa/cmake-build-debug
 
 build all: phony Calcolo_Ipotenusa
 

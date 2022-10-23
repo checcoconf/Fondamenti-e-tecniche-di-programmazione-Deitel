@@ -33,7 +33,7 @@ int main() {
         do{
             scanf("%lf",&ora);
             if (ora <= 0.0 || ora > 24.0){
-                printf("|ERRORE| impossibile parcheggiare l'auto per %.1lf ore\nReinserisci l'ora qui --->",ora);
+                printf("|ERRORE| impossibile parcheggiare l'auto per %.1lf ore\nReinserisci l'ora qui ---> ",ora);
             }
         }while (ora <= 0.0 || ora > 24.0);
 

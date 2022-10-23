@@ -4,7 +4,7 @@
 
 double hypotenuse (double cateto1, double cateto2){
     if (cateto1 <= 0.00 || cateto2 <= 0.00){
-        printf("|ERRORE| i cateti non possono assumere valori <= 0.00");
+        printf("|ERRORE| i cateti non possono assumere valori <= 0.00\n");
         return 0.00;
     }else{
         double ipotenusa = sqrt((cateto1*cateto1)+(cateto2*cateto2));
